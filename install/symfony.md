@@ -28,21 +28,6 @@ $ composer require linotype/symfony "v1.x-dev" --dev --no-cache
 {% endtab %}
 {% endtabs %}
 
-Add composer extra installer & paths to import linotype project \(for next step\):
-
-{% code title="\[edit\] composer.json" %}
-```javascript
-{
-    "extra": {
-        "installer-types": ["linotype"],
-        "installer-paths": {
-            "linotype/": ["type:linotype"]
-        }
-    }
-}
-```
-{% endcode %}
-
 Add linotype project sample from repository \(e.g. official starter\):
 
 {% tabs %}

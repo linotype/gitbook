@@ -6,7 +6,7 @@ In a web agency, the person who deals with clients probably has a background in 
 
 ## Develop back & front at the same time 
 
-It is sometimes difficult to plan your back and front-end developers according to the projects. With linotype it is possible to start the development front before the back and vice versa thanks to the basic static configuration. You are free to develop an element in static and add a back system afterwards.
+It is sometimes difficult to plan your backend and frontend developers in multiple projects. With linotype it is possible to start the development front before the back and vice versa thanks to the basic static configuration. You are free to develop an element in static and add a back system afterwards.
 
 ## Use your code everywhere
 
