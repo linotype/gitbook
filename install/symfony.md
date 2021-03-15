@@ -15,7 +15,7 @@ $ symfony new my_website
 Install linotype bundle with composer from the packagist.org repository:
 
 {% tabs %}
-{% tab title="Production" %}
+{% tab title="Beta" %}
 ```
 $ composer require linotype/symfony
 ```
@@ -31,7 +31,7 @@ $ composer require linotype/symfony "v1.x-dev" --dev --no-cache
 Add linotype project sample from repository \(e.g. official starter\):
 
 {% tabs %}
-{% tab title="Production" %}
+{% tab title="Beta" %}
 ```
 $ composer require linotype/starter
 ```
