@@ -3,19 +3,19 @@
 ## Installation steps
 
 {% hint style="success" %}
-**linotype for symfony** is under development, **but** **you can give a try with develop tabs bellow**
+**linotype for symfony** is under development, ****give a try with **v1.x-dev** tabs bellow
 {% endhint %}
 
-Create new symfony project:
+### Create new symfony project:
 
 ```
 $ symfony new my_website
 ```
 
-Install linotype:
+### Install linotype:
 
 {% tabs %}
-{% tab title="Common" %}
+{% tab title="v1.1" %}
 Require linotype bundle with composer from the packagist.org repository:
 
 ```
@@ -29,7 +29,7 @@ $ composer require linotype/starter
 ```
 {% endtab %}
 
-{% tab title="Develop" %}
+{% tab title="v1.x-dev" %}
 Install from v1.x-dev branch:
 
 ```
@@ -38,7 +38,9 @@ $ composer require linotype/symfony linotype/core linotype/installers linotype/s
 {% endtab %}
 {% endtabs %}
 
-Change default twig path to linotype _\(flex recipe comming soon\):_
+### Configure symfony _\(flex recipe comming soon\)_
+
+#### Change default twig path to linotype_:_
 
 {% code title="\[edit\] config/packages/twig.yaml" %}
 ```yaml
@@ -47,7 +49,7 @@ twig:
 ```
 {% endcode %}
 
-Add linotype route config _\(flex recipe comming soon\):_
+#### Create linotype route config_:_
 
 {% code title="\[create\] config/routes/linotype.yaml" %}
 ```yaml
@@ -56,7 +58,9 @@ linotype:
 ```
 {% endcode %}
 
-Choose and configure a database provider in doctrine:
+### Setup the database provider
+
+#### Choose and configure a database provider in doctrine:
 
 {% code title="\[edit\] .env" %}
 ```text
@@ -71,7 +75,7 @@ DATABASE_URL="sqlite:///%kernel.project_dir%/var/data.db"
 ```
 {% endcode %}
 
-Execute common symfony command _\(flex recipe comming soon\):_
+#### Execute common symfony command_:_
 
 ```text
 $ symfony console make:migration
@@ -81,7 +85,9 @@ $ symfony console doctrine:migrations:migrate
 $ symfony console clear:cache
 ```
 
-Start local server and build assets:
+### Run local environement
+
+#### Serve and build assets:
 
 ```text
 $ symfony serve
