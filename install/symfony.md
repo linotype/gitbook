@@ -95,21 +95,9 @@ symfony serve
 yarn --cwd linotype/Base build
 ```
 
-
-
 {% hint style="success" %}
 **Done! You are ready to create your first linotype powered website**
 {% endhint %}
 
-\*\*\*\*
-
-**Check more information for symfony use in environements section:**
-
-{% page-ref page="../environement/symfony.md" %}
-
-
-
-
-
-
+Learn more about using linotype in the [symfony environment](../environement/symfony.md).
 
