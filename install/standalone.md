@@ -6,60 +6,39 @@
 **linotype standalone** is not yet usable
 {% endhint %}
 
-Create new composer project:
+### Create new composer project:
 
 ```
 $ composer init
 ```
 
-Add composer extra installer & paths to import linotype project \(for next step\):
-
-{% code title="\[edit\] composer.json" %}
-```javascript
-{
-    "extra": {
-        "installer-types": ["linotype"],
-        "installer-paths": {
-            "linotype/": ["type:linotype"]
-        }
-    }
-}
-```
-{% endcode %}
-
-Install linotype core with composer from the packagist.org repository:
+### Install linotype:
 
 {% tabs %}
-{% tab title="Production" %}
-```
-$ composer require linotype/core
-```
-{% endtab %}
+{% tab title="v1.1" %}
+Require linotype core with composer from the packagist.org repository:
 
-{% tab title="Develop" %}
 ```
-$ composer require linotype/core "v1.x-dev" --dev --no-cache
+composer require linotype/core
 ```
-{% endtab %}
-{% endtabs %}
 
 Add linotype project sample from repository \(e.g. official starter\):
 
-{% tabs %}
-{% tab title="Production" %}
-```
-$ composer require linotype/starter
+```text
+composer require linotype/starter
 ```
 {% endtab %}
 
-{% tab title="Develop" %}
+{% tab title="v1.x-dev" %}
+Install from v1.x-dev branch:
+
 ```
-$ composer require linotype/starter "v1.x-dev" --dev --no-cache
+$ composer require linotype/core:v1.x-dev linotype/starter:v1.x-dev --dev --no-cache
 ```
 {% endtab %}
 {% endtabs %}
 
-Build assets:
+### Build:
 
 ```text
 $ yarn --cwd linotype/Base build
