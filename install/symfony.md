@@ -12,34 +12,28 @@ Create new symfony project:
 $ symfony new my_website
 ```
 
-Install linotype bundle with composer from the packagist.org repository:
+Install linotype:
 
 {% tabs %}
-{% tab title="Beta" %}
+{% tab title="Common" %}
+Require linotype bundle with composer from the packagist.org repository:
+
 ```
 $ composer require linotype/symfony
 ```
-{% endtab %}
-
-{% tab title="Develop" %}
-```
-$ composer require linotype/symfony "v1.x-dev" --dev --no-cache
-```
-{% endtab %}
-{% endtabs %}
 
 Add linotype project sample from repository \(e.g. official starter\):
 
-{% tabs %}
-{% tab title="Beta" %}
-```
+```text
 $ composer require linotype/starter
 ```
 {% endtab %}
 
 {% tab title="Develop" %}
+Install from v1.x-dev branch:
+
 ```
-$ composer require linotype/starter "v1.x-dev" --dev --no-cache
+$ composer require linotype/symfony linotype/core linotype/installers linotype/starter v1.x-dev --dev --no-cache$ composer require linotype/starter "v1.x-dev" --dev --no-cache
 ```
 {% endtab %}
 {% endtabs %}
