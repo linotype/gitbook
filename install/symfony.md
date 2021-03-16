@@ -9,7 +9,7 @@
 ### Create new symfony project:
 
 ```
-$ symfony new my_website
+symfony new my_website
 ```
 
 ### Install linotype:
@@ -19,13 +19,13 @@ $ symfony new my_website
 Require linotype bundle with composer from the packagist.org repository:
 
 ```
-$ composer require linotype/symfony
+composer require linotype/symfony
 ```
 
 Add linotype project sample from repository \(e.g. official starter\):
 
 ```text
-$ composer require linotype/starter
+composer require linotype/starter
 ```
 {% endtab %}
 
@@ -33,7 +33,7 @@ $ composer require linotype/starter
 Install from v1.x-dev branch:
 
 ```
-$ composer require linotype/symfony linotype/core linotype/installers linotype/starter v1.x-dev --dev --no-cache$ composer require linotype/starter "v1.x-dev" --dev --no-cache
+composer require linotype/symfony linotype/core linotype/installers linotype/starter v1.x-dev --dev --no-cache$ composer require linotype/starter "v1.x-dev" --dev --no-cache
 ```
 {% endtab %}
 {% endtabs %}
@@ -78,11 +78,11 @@ DATABASE_URL="sqlite:///%kernel.project_dir%/var/data.db"
 #### Execute common symfony command_:_
 
 ```text
-$ symfony console make:migration
+symfony console make:migration
 
-$ symfony console doctrine:migrations:migrate
+symfony console doctrine:migrations:migrate
 
-$ symfony console clear:cache
+symfony console clear:cache
 ```
 
 ### Run local environement
@@ -90,8 +90,9 @@ $ symfony console clear:cache
 #### Serve and build assets:
 
 ```text
-$ symfony serve
-$ yarn --cwd linotype/Base build
+symfony serve
+
+yarn --cwd linotype/Base build
 ```
 
 
