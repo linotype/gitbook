@@ -3,7 +3,7 @@
 ## Installation steps
 
 {% hint style="success" %}
-**linotype for symfony** is under development, ****give a try with **v1.x-dev** tabs bellow
+**linotype for symfony** is under development, ****prefer the linotype **v1.x-dev** install
 {% endhint %}
 
 ### Create new symfony project:
