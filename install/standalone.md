@@ -9,7 +9,7 @@
 ### Create new composer project:
 
 ```
-$ composer init
+composer init
 ```
 
 ### Install linotype:
@@ -33,7 +33,7 @@ composer require linotype/starter
 Install from v1.x-dev branch:
 
 ```
-$ composer require linotype/core:v1.x-dev linotype/starter:v1.x-dev --dev --no-cache
+composer require linotype/core:v1.x-dev linotype/starter:v1.x-dev --dev --no-cache         
 ```
 {% endtab %}
 {% endtabs %}
@@ -41,7 +41,7 @@ $ composer require linotype/core:v1.x-dev linotype/starter:v1.x-dev --dev --no-c
 ### Build:
 
 ```text
-$ yarn --cwd linotype/Base build
+yarn --cwd linotype/Base build
 ```
 
 
