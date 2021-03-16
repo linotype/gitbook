@@ -44,11 +44,9 @@ composer require linotype/core:v1.x-dev linotype/starter:v1.x-dev --dev --no-cac
 yarn --cwd linotype/Base build
 ```
 
-
-
 {% hint style="success" %}
 **Done! You are ready to create your first linotype powered website**
 {% endhint %}
 
-\*\*\*\*
+Learn more about using linotype in the [standalone environment](../environement/standalone.md).
 
