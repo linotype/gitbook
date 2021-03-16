@@ -33,7 +33,7 @@ composer require linotype/starter
 Install from v1.x-dev branch:
 
 ```
-composer require linotype/symfony linotype/core linotype/installers linotype/starter v1.x-dev --dev --no-cache$ composer require linotype/starter "v1.x-dev" --dev --no-cache
+composer require linotype/symfony:v1.x-dev linotype/core:v1.x-dev linotype/installers:v1.x-dev linotype/starter:v1.x-dev --dev --no-cache           
 ```
 {% endtab %}
 {% endtabs %}
