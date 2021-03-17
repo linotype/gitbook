@@ -9,7 +9,7 @@
 ### Create new symfony project:
 
 ```
-symfony new my_website
+symfony new my_website        
 ```
 
 ### Install linotype:
@@ -19,13 +19,13 @@ symfony new my_website
 Require linotype bundle with composer from the packagist.org repository:
 
 ```
-composer require linotype/symfony
+composer require linotype/symfony        
 ```
 
 Add linotype project sample from repository \(e.g. official starter\):
 
 ```text
-composer require linotype/starter
+composer require linotype/starter        
 ```
 {% endtab %}
 
@@ -45,7 +45,7 @@ composer require linotype/symfony:v1.x-dev linotype/core:v1.x-dev linotype/insta
 {% code title="\[edit\] config/packages/twig.yaml" %}
 ```yaml
 twig:
-    default_path: '%kernel.project_dir%/linotype'
+    default_path: '%kernel.project_dir%/linotype'        
 ```
 {% endcode %}
 
@@ -54,7 +54,7 @@ twig:
 {% code title="\[create\] config/routes/linotype.yaml" %}
 ```yaml
 linotype:
-  resource: '@LinotypeBundle/Resources/config/routes.yaml'
+  resource: '@LinotypeBundle/Resources/config/routes.yaml'        
 ```
 {% endcode %}
 
@@ -65,7 +65,7 @@ linotype:
 {% code title="\[edit\] .env" %}
 ```text
 ###> doctrine/doctrine-bundle ###
-# Format described at https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#connecting-using-a-url
+# Format described at https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#connecting-using-a-url        
 # IMPORTANT: You MUST configure your server version, either here or in config/packages/doctrine.yaml
 #
 DATABASE_URL="sqlite:///%kernel.project_dir%/var/data.db"
@@ -78,11 +78,15 @@ DATABASE_URL="sqlite:///%kernel.project_dir%/var/data.db"
 #### Execute common symfony command_:_
 
 ```text
-symfony console make:migration
+symfony console make:migration        
+```
 
-symfony console doctrine:migrations:migrate
+```text
+symfony console doctrine:migrations:migrate        
+```
 
-symfony console clear:cache
+```text
+symfony console cache:clear        
 ```
 
 ### Run local environement
@@ -90,9 +94,11 @@ symfony console clear:cache
 #### Serve and build assets:
 
 ```text
-symfony serve
+symfony serve        
+```
 
-yarn --cwd linotype/Base build
+```text
+yarn --cwd linotype/Base build        
 ```
 
 {% hint style="success" %}
