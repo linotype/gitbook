@@ -98,6 +98,10 @@ symfony serve
 ```
 
 ```text
+yarn --cwd linotype/Base install       
+```
+
+```text
 yarn --cwd linotype/Base build        
 ```
 
