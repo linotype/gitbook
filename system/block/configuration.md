@@ -139,7 +139,7 @@ context:
 
 **context\_id\_1:** This context automatically generates a backend field when used in a module or template . You can replace the value of the field with 'stratic' to disable the automatic generation field from the backend and assign a value to it by replacing the 'value' or 'default'. 
 
-**context\_id\_2:** This context is a static value, no backend generated when the block is used in a module or template. You can make it dynamic frome the module or template by overriding the field value with a field id and also your can override the field options.
+**context\_id\_2:** This context is a static value, no backend generated when the block is used in a module or template. You can make it dynamic from the module or template by overriding the field value with a field id and also your can override the field options.
 
 **context\_id\_3:** If you create a custom field that save json data, you get array in the formater
 
