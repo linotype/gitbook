@@ -22,7 +22,7 @@ Require linotype bundle with composer from the packagist.org repository:
 composer require linotype/symfony        
 ```
 
-Add linotype project sample from repository \(e.g. official starter\):
+Add a linotype starter project from repository \(default starter bellow, **choose another one** [here](../exemple/)\):
 
 ```text
 composer require linotype/starter        
