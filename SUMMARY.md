@@ -68,5 +68,6 @@
 * [Debug](tools/debug-toolbar.md)
 * [Design](tools/design-system.md)
 * [Spec](tools/spec.md)
+* [Cache](tools/cache.md)
 * [Sync](tools/sync.md)
 
