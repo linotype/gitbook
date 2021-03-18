@@ -5,7 +5,7 @@ Build **linotype project** with **webpack** and **stimulus** \(+ **turbolink\)**
 {% embed url="https://github.com/linotype/ressources/tree/master/stimulus" %}
 
 {% hint style="success" %}
-Selected javascript framework for the default [linotype/starter](../../../exemple.md)
+Selected javascript framework for the default [linotype/starter](../../../exemple/)
 {% endhint %}
 
 {% hint style="warning" %}

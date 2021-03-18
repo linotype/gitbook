@@ -7,7 +7,7 @@ description: linotype/Base
 The **linotype project** require **webpack** to build the frontend assets.
 
 {% hint style="info" %}
-if you plan to share your blocks between projects, you should always use the same framework. otherwise you will have to recode them. \([linotype/starter](../../../exemple.md) project use [stimulus](stimulus.md)\)
+if you plan to share your blocks between projects, you should always use the same framework. otherwise you will have to recode them. \([linotype/starter](../../../exemple/) project use [stimulus](stimulus.md)\)
 {% endhint %}
 
 Choose one of the following webpack **framework** preset for your project:

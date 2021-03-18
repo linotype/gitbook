@@ -1,10 +1,6 @@
----
-description: The project directory sample
----
+# Custom
 
-# Starter
 
-{% embed url="https://github.com/linotype/starter" %}
 
 ## linotype directory exemple
 

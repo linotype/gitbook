@@ -7,7 +7,11 @@
   * [Drupal](install/drupal.md)
   * [Wordpress](install/wordpress.md)
   * [Standalone](install/standalone.md)
-* [Starter](exemple.md)
+* [Starter](exemple/README.md)
+  * [Default](exemple/default.md)
+  * [Demo](exemple/demo.md)
+  * [Empty](exemple/empty.md)
+  * [Custom](exemple/custom.md)
 
 ## System
 
