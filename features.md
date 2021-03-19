@@ -12,6 +12,10 @@ It is sometimes difficult to plan your backend and frontend developers in multip
 
 The project does not always require the same management tool or sometimes the client wants a specific one. With linotype you don't have to worry about that anymore. Your code can be plugged into Drupal, Wordpress, Symfony or in a standalone project. 
 
+## Find the bad guy
+
+In the team creation of sites, it happens that several internal developers, interns, external, work on the same project. Despite the guidelines, no one always codes the same way. The worst is having several developers on the same feature. The linotype system encapsulates each development and thus makes it easy to find who coded what, and to act accordingly. An advantage for team code management on multiprojects.
+
 {% hint style="warning" %}
 The list of advantages is being written...
 {% endhint %}
