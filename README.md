@@ -1,10 +1,8 @@
----
-description: linotype | a light monolith
----
-
 # Introduction
 
-**Linotype** is a website component system driven by yaml configuration files and semi-automatic backend.
+**linotype** \| a light monolith
+
+Linotype is a website **component** **system** driven by **yaml configuration** files and **semi-automatic backend**.
 
 Code **blocks**, **fields** and **helpers.** Create **modules** and **templates** with them. Map everything in **themes** and enjoy **semi-automatic backend**.
 
