@@ -19,7 +19,7 @@ composer init
 Require linotype core with composer from the packagist.org repository:
 
 ```
-composer require linotype/core
+composer require linotype/linotype
 ```
 
 Add linotype project sample from repository \(e.g. official starter\):
