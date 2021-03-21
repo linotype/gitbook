@@ -8,7 +8,7 @@
 
 ### Create new composer project:
 
-```
+```text
 composer init
 ```
 
@@ -18,7 +18,7 @@ composer init
 {% tab title="v1.1" %}
 Require linotype core with composer from the packagist.org repository:
 
-```
+```text
 composer require linotype/linotype
 ```
 
@@ -32,8 +32,8 @@ composer require linotype/starter
 {% tab title="v1.x-dev" %}
 Install from v1.x-dev branch:
 
-```
-composer require linotype/core:v1.x-dev linotype/starter:v1.x-dev --dev --no-cache         
+```text
+composer require linotype/linotype:v1.x-dev linotype/starter:v1.x-dev --dev --no-cache
 ```
 {% endtab %}
 {% endtabs %}
