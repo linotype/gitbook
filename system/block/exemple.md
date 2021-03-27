@@ -17,8 +17,8 @@ block:
   author: ynk 
  
   name: Title
-  desc: Create a simple title
-  
+  description: Create a simple title
+    
   context:
 
     title:

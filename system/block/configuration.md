@@ -12,7 +12,7 @@ Start your MyBlock.yml file with the array key **block** and add the following v
 | [author](configuration.md#author) | string | yes | local |
 | [name](configuration.md#name) | string | yes | unknow |
 | [desc](configuration.md#desc) | string | yes | unknow |
-| [package](configuration.md#package) | array | no | null |
+| package | array | no | null |
 | [parent](configuration.md#parent) | string/array | no | ~ |
 | [accept](configuration.md#accept) | string/array | no | all |
 | [context](configuration.md#context) | array | no | null |
@@ -95,6 +95,8 @@ the context part is a list of variables that you can use in your template, scrip
 context:
     
     context_id_1:
+        name: Welcome text
+        desc: Display Hello with name from contribution
         field: Text
         persist: meta
         option:
@@ -105,11 +107,14 @@ context:
         debug: false
     
     context_id_2:
+        name: Title
+        desc: Simple static text value
         field: Static
         default: My static value
         js: true
         
     context_id_3:
+        name: Link value
         field: Link
         persist: option
         default: {
@@ -119,6 +124,7 @@ context:
         format: <a href="{{value.title}}">{{value.link}}</a>
         
     context_id_4:
+        name: Font Size
         value: 3rem
         css: true
         
@@ -126,6 +132,8 @@ context:
 
 | key | description | type | require | default |
 | :--- | :--- | :--- | :--- | :--- |
+| name | The context name | string | yes | Unknow |
+| desc | The context description | string | no | empty |
 | field | The field ID used to format and edit the value in admin mode | string | no | Static |
 | persist | Save context as template meta or global option | string | no | meta |
 | option | The field options \(check in relative field yaml config file\) | array | no | null |

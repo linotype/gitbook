@@ -6,13 +6,13 @@
 **linotype for symfony** is under development, ****prefer the linotype **v1.x-dev** install
 {% endhint %}
 
-### Create new symfony project:
+### 1. Create new symfony project:
 
 ```
 symfony new my_website        
 ```
 
-### Install linotype:
+### 2. Install linotype:
 
 {% tabs %}
 {% tab title="v1.1" %}
@@ -38,7 +38,7 @@ composer require linotype/symfony:v1.x-dev linotype/linotype:v1.x-dev linotype/i
 {% endtab %}
 {% endtabs %}
 
-### Configure symfony _\(flex recipe comming soon\)_
+### 3. Configure symfony _\(flex recipe comming soon\)_
 
 #### Change default twig path to linotype_:_
 
@@ -58,7 +58,7 @@ linotype:
 ```
 {% endcode %}
 
-### Setup the database provider
+### 4. Setup the database provider
 
 #### Choose and configure a database provider in doctrine:
 
@@ -89,7 +89,7 @@ symfony console doctrine:migrations:migrate
 symfony console cache:clear        
 ```
 
-### Run local environement
+### 5. Run local environement
 
 #### Serve and build assets:
 
