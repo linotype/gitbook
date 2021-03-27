@@ -12,7 +12,7 @@ Start your MyBlock.yml file with the array key **block** and add the following v
 | [author](configuration.md#author) | string | yes | local |
 | [name](configuration.md#name) | string | yes | unknow |
 | [desc](configuration.md#desc) | string | yes | unknow |
-| package | array | no | null |
+| [package](configuration.md#package) | array | no | null |
 | [parent](configuration.md#parent) | string/array | no | ~ |
 | [accept](configuration.md#accept) | string/array | no | all |
 | [context](configuration.md#context) | array | no | null |
