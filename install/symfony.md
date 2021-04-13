@@ -109,5 +109,5 @@ yarn --cwd linotype/Base build
 **Done! You are ready to create your first linotype powered website**
 {% endhint %}
 
-Learn more about using linotype in the [symfony environment](../environement/symfony.md).
+Learn more about using linotype in the [symfony environment](../environement/symfony/).
 

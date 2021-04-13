@@ -1,8 +1,6 @@
 # Custom
 
-
-
-## linotype directory exemple
+## Linotype directory exemple
 
 * **linotype**
   * Base
@@ -63,4 +61,10 @@
     * MyWebsite.yml
     * ...
   * linotype.yml
+
+
+
+The `Linotype` directory contains the code of your application.
+
+The `Base` directory contains the assets of your application.
 

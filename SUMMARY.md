@@ -62,7 +62,8 @@
 
 ## Environement
 
-* [Symfony](environement/symfony.md)
+* [Symfony](environement/symfony/README.md)
+  * [Admin](environement/symfony/admin.md)
 * [Drupal](environement/drupal.md)
 * [Wordpress](environement/wordpress.md)
 * [Standalone](environement/standalone.md)
