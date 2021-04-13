@@ -16,7 +16,7 @@ Linotype is written in PHP at the moment, but it's a working method, it could be
 
 
 
-The linotype admin interface for symfony is under development. Take a look, [mockup](environement/symfony/admin.md)
+The linotype admin interface for symfony is under development. Take a look at [mockup](environement/symfony/admin.md)
 
 ![](.gitbook/assets/linotype-preview.png)
 
