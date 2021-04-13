@@ -3,7 +3,7 @@
 ## Installation steps
 
 {% hint style="success" %}
-**linotype for symfony** is under development, ****prefer the linotype **v1.x-dev** install
+**linotype for symfony** is under development
 {% endhint %}
 
 ### 1. Create new symfony project:
@@ -15,7 +15,7 @@ symfony new my_website
 ### 2. Install linotype:
 
 {% tabs %}
-{% tab title="v1.1" %}
+{% tab title="latest" %}
 Require linotype bundle with composer from the packagist.org repository:
 
 ```
