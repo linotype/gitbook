@@ -2,7 +2,7 @@
 
 **linotype** \| a light monolith
 
-Linotype is a website **component** **system** driven by **yaml configuration** files with **auto-generated backend**.
+Linotype is a PHP **Content Management Frameworks** based on **atomic design system** and driven by **yaml configuration** files with **auto-generated backend**
 
 Code **blocks**, **fields** and **helpers.** Create **modules** and **templates** with them. Map everything in **themes.**
 
