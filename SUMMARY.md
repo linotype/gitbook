@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Features](features.md)
 * [Install](install/README.md)
   * [Symfony](install/symfony.md)
   * [Drupal](install/drupal.md)
@@ -79,4 +78,5 @@
 ---
 
 * [Ressources](ressources.md)
+* [Features](features.md)
 
