@@ -9,7 +9,7 @@ Code **blocks**, **fields** and **helpers.** Create **modules** and **templates*
 Your **linotype** **projects** can be plugged into [**Symfony**](install/symfony.md)**,** [**Drupal**](install/drupal.md)**,** [**Wordpress**](install/wordpress.md) or simply be used as [**standalone**](install/standalone.md).
 
 {% hint style="info" %}
-Linotype is written in PHP at the moment, but it's a working method, it could be rewritten in multiple languages like node, golang, ruby, python and more
+**Linotype is written in PHP** at the moment. Its rewriting in **javascript** on the **react framework** is under study following the evolution of [server-side components](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html). Both still in experimentation. Linotype is currently stable and efficient in its current version. **PHP is not dead ;\)**
 {% endhint %}
 
 {% embed url="https://github.com/linotype" %}
